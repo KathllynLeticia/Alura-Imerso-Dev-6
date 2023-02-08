@@ -1,0 +1,14 @@
+var listaFilmes = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUkXYeQ6cvPsajthgZUnUna9mmn30nIuk4VhPumSsgELo5z2Zr","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPNHhebgLBpkoVVRUZLS6iBk4_QNFL7ob1hRGV7Me_pvVhBH-w","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8bAIbYn-nJxqXb_Eixa_zCEJIDWdm25oZ8UFnI51mcumTrIQ","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSMXAY7NfXP9KD4E6lHN2z9CZPMIngD39PxurSQXNfG6edN563s","https://musicart.xboxlive.com/7/89310400-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080","https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTt2dzvBs0FkqzxitH8o2X-t52hPQ28-FMkfgp9b46BZQaBmGuF"]
+
+var nomeFilmes = ["Planeta dos Macacos: A Guerra","Pantera Negra:<br> Wakanda Para Sempre","Homem de Ferro 3","Homem-Aranha:<br>Sem Volta para Casa","Sherlock Holmes","A Chegada"]
+
+var i = 0;
+
+while( i < listaFilmes.length){
+  document.write('<div class="organiza">');
+  document.write("<img src="+listaFilmes[i]+">");
+  document.write("<p>"+nomeFilmes[i]+"</p>")
+  document.write("</div>");
+  
+  i++;
+}
