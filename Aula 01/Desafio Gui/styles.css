@@ -1,5 +1,0 @@
-var valorEmLibra = 300;
-var cotacaoEmLibra = 6.33;
-var valorEmReal = valorEmLibra * cotacaoEmLibra;
-valorEmReal = valorEmReal.toFixed(2);
-alert("R$" + valorEmReal);
